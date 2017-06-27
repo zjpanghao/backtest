@@ -1,0 +1,101 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddConfig	base_config.cc	/^void  BaseConfig::AddConfig(std::string sect, std::string key, std::string val) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string sect, std::string key, std::string val)
+AddConfig	base_config.h	/^  void AddConfig(std::string sect, std::string key, std::string val);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::string sect, std::string key, std::string val)
+AddValue	base_config.cc	/^void ConfigValue::AddValue(std::string const & key, std::string const& val) {$/;"	f	class:plugin_pub::ConfigValue	signature:(std::string const & key, std::string const& val)
+AddValue	base_config.h	/^  void AddValue(std::string const & key, std::string const& val);$/;"	p	class:plugin_pub::ConfigValue	access:public	signature:(std::string const & key, std::string const& val)
+BaseConfig	base_config.cc	/^BaseConfig::BaseConfig() {$/;"	f	class:plugin_pub::BaseConfig	signature:()
+BaseConfig	base_config.h	/^  BaseConfig();$/;"	p	class:plugin_pub::BaseConfig	access:public	signature:()
+BaseConfig	base_config.h	/^class BaseConfig {$/;"	c	namespace:plugin_pub
+Clear	base_config.cc	/^void BaseConfig::Clear() {$/;"	f	class:plugin_pub::BaseConfig	signature:()
+Clear	base_config.h	/^  void Clear();$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:()
+ConfigValue	base_config.cc	/^ConfigValue::ConfigValue() {$/;"	f	class:plugin_pub::ConfigValue	signature:()
+ConfigValue	base_config.h	/^  ConfigValue();$/;"	p	class:plugin_pub::ConfigValue	access:public	signature:()
+ConfigValue	base_config.h	/^class ConfigValue {$/;"	c	namespace:plugin_pub
+ETOKEN_BACKSPACE	base_config.h	/^  ETOKEN_BACKSPACE = ' ',$/;"	e	enum:plugin_pub::SpaceToken
+ETOKEN_LINE	base_config.h	/^  ETOKEN_LINE = '\\n'$/;"	e	enum:plugin_pub::SpaceToken
+ETOKEN_RETURN	base_config.h	/^  ETOKEN_RETURN = '\\r',$/;"	e	enum:plugin_pub::SpaceToken
+ETOKEN_TAB	base_config.h	/^  ETOKEN_TAB = '\\t',$/;"	e	enum:plugin_pub::SpaceToken
+EraseSpaceToken	base_config.cc	/^std::string BaseConfig::EraseSpaceToken(std::string const &s) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string const &s)
+EraseSpaceToken	base_config.h	/^  std::string EraseSpaceToken(std::string const &s);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::string const &s)
+FectchKeyValue	base_config.cc	/^std::pair<std::string, std::string> BaseConfig::FectchKeyValue(std::string const & s) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string const & s)
+FectchKeyValue	base_config.h	/^  std::pair<std::string, std::string> FectchKeyValue(std::string const & s);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::string const & s)
+FetchSecName	base_config.cc	/^std::string BaseConfig::FetchSecName(std::string const & s) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string const & s)
+FetchSecName	base_config.h	/^  std::string FetchSecName(std::string const & s);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::string const & s)
+GetParam	base_config.h	/^  T GetParam(std::string sec_name, std::string key) {$/;"	f	class:plugin_pub::BaseConfig	access:public	signature:(std::string sec_name, std::string key)
+GetParamInt	base_config.cc	/^int BaseConfig::GetParamInt(std::string sec_name, std::string key) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string sec_name, std::string key)
+GetParamInt	base_config.h	/^  int GetParamInt(std::string sec_name, std::string key);$/;"	p	class:plugin_pub::BaseConfig	access:public	signature:(std::string sec_name, std::string key)
+GetParamString	base_config.cc	/^std::string BaseConfig::GetParamString(std::string sec_name, std::string key) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string sec_name, std::string key)
+GetParamString	base_config.h	/^  std::string GetParamString(std::string sec_name, std::string key);$/;"	p	class:plugin_pub::BaseConfig	access:public	signature:(std::string sec_name, std::string key)
+GetValue	base_config.cc	/^std::string ConfigValue::GetValue(std::string const & key) {$/;"	f	class:plugin_pub::ConfigValue	signature:(std::string const & key)
+GetValue	base_config.h	/^  std::string GetValue(std::string const & key);$/;"	p	class:plugin_pub::ConfigValue	access:public	signature:(std::string const & key)
+INCLUDE_PATH	makefile	/^INCLUDE_PATH=.\/$/;"	m
+IsKeyValue	base_config.cc	/^bool BaseConfig::IsKeyValue(std::string const &s) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string const &s)
+IsKeyValue	base_config.h	/^  bool IsKeyValue(std::string const &s);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::string const &s)
+IsSect	base_config.cc	/^bool BaseConfig::IsSect(std::string const &s) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string const &s)
+IsSect	base_config.h	/^  bool IsSect(std::string const &s);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::string const &s)
+LoadFile	base_config.cc	/^bool BaseConfig::LoadFile(std::string config_file) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string config_file)
+LoadFile	base_config.h	/^  bool LoadFile(std::string config_file);$/;"	p	class:plugin_pub::BaseConfig	access:public	signature:(std::string config_file)
+MapStrToStr	base_config.cc	/^typedef std::map<std::string, std::string> MapStrToStr;$/;"	t	namespace:plugin_pub	file:
+ParseFile	base_config.cc	/^void BaseConfig::ParseFile(std::ifstream & in_file) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::ifstream & in_file)
+ParseFile	base_config.h	/^  void ParseFile(std::ifstream & in_file);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::ifstream & in_file)
+SpaceToken	base_config.h	/^enum SpaceToken {$/;"	g	namespace:plugin_pub
+__TYH_PUB_BASE_CONFIG_H__	base_config.h	10;"	d
+config_sec_	base_config.h	/^  std::map<std::string, ConfigValue *> config_sec_;$/;"	m	class:plugin_pub::BaseConfig	access:protected
+main	main.cc	/^int main(int argc, char* argv[]) {$/;"	f	signature:(int argc, char* argv[])
+map_key_val_	base_config.h	/^  std::map<std::string, std::string> map_key_val_;$/;"	m	class:plugin_pub::ConfigValue	access:protected
+plugin_pub	base_config.cc	/^namespace plugin_pub {$/;"	n	file:
+plugin_pub	base_config.h	/^namespace plugin_pub {$/;"	n
+plugin_pub::BaseConfig	base_config.h	/^class BaseConfig {$/;"	c	namespace:plugin_pub
+plugin_pub::BaseConfig::AddConfig	base_config.cc	/^void  BaseConfig::AddConfig(std::string sect, std::string key, std::string val) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string sect, std::string key, std::string val)
+plugin_pub::BaseConfig::AddConfig	base_config.h	/^  void AddConfig(std::string sect, std::string key, std::string val);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::string sect, std::string key, std::string val)
+plugin_pub::BaseConfig::BaseConfig	base_config.cc	/^BaseConfig::BaseConfig() {$/;"	f	class:plugin_pub::BaseConfig	signature:()
+plugin_pub::BaseConfig::BaseConfig	base_config.h	/^  BaseConfig();$/;"	p	class:plugin_pub::BaseConfig	access:public	signature:()
+plugin_pub::BaseConfig::Clear	base_config.cc	/^void BaseConfig::Clear() {$/;"	f	class:plugin_pub::BaseConfig	signature:()
+plugin_pub::BaseConfig::Clear	base_config.h	/^  void Clear();$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:()
+plugin_pub::BaseConfig::EraseSpaceToken	base_config.cc	/^std::string BaseConfig::EraseSpaceToken(std::string const &s) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string const &s)
+plugin_pub::BaseConfig::EraseSpaceToken	base_config.h	/^  std::string EraseSpaceToken(std::string const &s);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::string const &s)
+plugin_pub::BaseConfig::FectchKeyValue	base_config.cc	/^std::pair<std::string, std::string> BaseConfig::FectchKeyValue(std::string const & s) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string const & s)
+plugin_pub::BaseConfig::FectchKeyValue	base_config.h	/^  std::pair<std::string, std::string> FectchKeyValue(std::string const & s);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::string const & s)
+plugin_pub::BaseConfig::FetchSecName	base_config.cc	/^std::string BaseConfig::FetchSecName(std::string const & s) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string const & s)
+plugin_pub::BaseConfig::FetchSecName	base_config.h	/^  std::string FetchSecName(std::string const & s);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::string const & s)
+plugin_pub::BaseConfig::GetParam	base_config.h	/^  T GetParam(std::string sec_name, std::string key) {$/;"	f	class:plugin_pub::BaseConfig	access:public	signature:(std::string sec_name, std::string key)
+plugin_pub::BaseConfig::GetParamInt	base_config.cc	/^int BaseConfig::GetParamInt(std::string sec_name, std::string key) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string sec_name, std::string key)
+plugin_pub::BaseConfig::GetParamInt	base_config.h	/^  int GetParamInt(std::string sec_name, std::string key);$/;"	p	class:plugin_pub::BaseConfig	access:public	signature:(std::string sec_name, std::string key)
+plugin_pub::BaseConfig::GetParamString	base_config.cc	/^std::string BaseConfig::GetParamString(std::string sec_name, std::string key) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string sec_name, std::string key)
+plugin_pub::BaseConfig::GetParamString	base_config.h	/^  std::string GetParamString(std::string sec_name, std::string key);$/;"	p	class:plugin_pub::BaseConfig	access:public	signature:(std::string sec_name, std::string key)
+plugin_pub::BaseConfig::IsKeyValue	base_config.cc	/^bool BaseConfig::IsKeyValue(std::string const &s) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string const &s)
+plugin_pub::BaseConfig::IsKeyValue	base_config.h	/^  bool IsKeyValue(std::string const &s);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::string const &s)
+plugin_pub::BaseConfig::IsSect	base_config.cc	/^bool BaseConfig::IsSect(std::string const &s) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string const &s)
+plugin_pub::BaseConfig::IsSect	base_config.h	/^  bool IsSect(std::string const &s);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::string const &s)
+plugin_pub::BaseConfig::LoadFile	base_config.cc	/^bool BaseConfig::LoadFile(std::string config_file) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::string config_file)
+plugin_pub::BaseConfig::LoadFile	base_config.h	/^  bool LoadFile(std::string config_file);$/;"	p	class:plugin_pub::BaseConfig	access:public	signature:(std::string config_file)
+plugin_pub::BaseConfig::ParseFile	base_config.cc	/^void BaseConfig::ParseFile(std::ifstream & in_file) {$/;"	f	class:plugin_pub::BaseConfig	signature:(std::ifstream & in_file)
+plugin_pub::BaseConfig::ParseFile	base_config.h	/^  void ParseFile(std::ifstream & in_file);$/;"	p	class:plugin_pub::BaseConfig	access:protected	signature:(std::ifstream & in_file)
+plugin_pub::BaseConfig::config_sec_	base_config.h	/^  std::map<std::string, ConfigValue *> config_sec_;$/;"	m	class:plugin_pub::BaseConfig	access:protected
+plugin_pub::BaseConfig::~BaseConfig	base_config.cc	/^BaseConfig::~BaseConfig() {$/;"	f	class:plugin_pub::BaseConfig	signature:()
+plugin_pub::BaseConfig::~BaseConfig	base_config.h	/^  ~BaseConfig();$/;"	p	class:plugin_pub::BaseConfig	access:public	signature:()
+plugin_pub::ConfigValue	base_config.h	/^class ConfigValue {$/;"	c	namespace:plugin_pub
+plugin_pub::ConfigValue::AddValue	base_config.cc	/^void ConfigValue::AddValue(std::string const & key, std::string const& val) {$/;"	f	class:plugin_pub::ConfigValue	signature:(std::string const & key, std::string const& val)
+plugin_pub::ConfigValue::AddValue	base_config.h	/^  void AddValue(std::string const & key, std::string const& val);$/;"	p	class:plugin_pub::ConfigValue	access:public	signature:(std::string const & key, std::string const& val)
+plugin_pub::ConfigValue::ConfigValue	base_config.cc	/^ConfigValue::ConfigValue() {$/;"	f	class:plugin_pub::ConfigValue	signature:()
+plugin_pub::ConfigValue::ConfigValue	base_config.h	/^  ConfigValue();$/;"	p	class:plugin_pub::ConfigValue	access:public	signature:()
+plugin_pub::ConfigValue::GetValue	base_config.cc	/^std::string ConfigValue::GetValue(std::string const & key) {$/;"	f	class:plugin_pub::ConfigValue	signature:(std::string const & key)
+plugin_pub::ConfigValue::GetValue	base_config.h	/^  std::string GetValue(std::string const & key);$/;"	p	class:plugin_pub::ConfigValue	access:public	signature:(std::string const & key)
+plugin_pub::ConfigValue::map_key_val_	base_config.h	/^  std::map<std::string, std::string> map_key_val_;$/;"	m	class:plugin_pub::ConfigValue	access:protected
+plugin_pub::ConfigValue::~ConfigValue	base_config.cc	/^ConfigValue::~ConfigValue() {$/;"	f	class:plugin_pub::ConfigValue	signature:()
+plugin_pub::ConfigValue::~ConfigValue	base_config.h	/^  ~ConfigValue();$/;"	p	class:plugin_pub::ConfigValue	access:public	signature:()
+plugin_pub::ETOKEN_BACKSPACE	base_config.h	/^  ETOKEN_BACKSPACE = ' ',$/;"	e	enum:plugin_pub::SpaceToken
+plugin_pub::ETOKEN_LINE	base_config.h	/^  ETOKEN_LINE = '\\n'$/;"	e	enum:plugin_pub::SpaceToken
+plugin_pub::ETOKEN_RETURN	base_config.h	/^  ETOKEN_RETURN = '\\r',$/;"	e	enum:plugin_pub::SpaceToken
+plugin_pub::ETOKEN_TAB	base_config.h	/^  ETOKEN_TAB = '\\t',$/;"	e	enum:plugin_pub::SpaceToken
+plugin_pub::MapStrToStr	base_config.cc	/^typedef std::map<std::string, std::string> MapStrToStr;$/;"	t	namespace:plugin_pub	file:
+plugin_pub::SpaceToken	base_config.h	/^enum SpaceToken {$/;"	g	namespace:plugin_pub
+~BaseConfig	base_config.cc	/^BaseConfig::~BaseConfig() {$/;"	f	class:plugin_pub::BaseConfig	signature:()
+~BaseConfig	base_config.h	/^  ~BaseConfig();$/;"	p	class:plugin_pub::BaseConfig	access:public	signature:()
+~ConfigValue	base_config.cc	/^ConfigValue::~ConfigValue() {$/;"	f	class:plugin_pub::ConfigValue	signature:()
+~ConfigValue	base_config.h	/^  ~ConfigValue();$/;"	p	class:plugin_pub::ConfigValue	access:public	signature:()

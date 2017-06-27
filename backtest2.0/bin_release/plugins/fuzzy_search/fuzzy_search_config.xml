@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <cached>
+     <redis host ="127.0.0.1"
+      port ="6379"
+     pass = "7ifW4i@M"
+     name = "0"/>
+
+     <memcached>
+       <config host = "127.0.0.1" port="11211"/>
+     </memcached>
+  </cached>  
+
+</config>
